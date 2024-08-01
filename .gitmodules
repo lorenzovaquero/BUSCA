@@ -1,0 +1,15 @@
+[submodule "trackers/StrongSORT"]
+	path = trackers/StrongSORT
+	url = https://github.com/dyhBUPT/StrongSORT
+[submodule "trackers/ByteTrack"]
+	path = trackers/ByteTrack
+	url = https://github.com/ifzhang/ByteTrack.git
+[submodule "trackers/GHOST"]
+	path = trackers/GHOST
+	url = https://github.com/dvl-tum/GHOST
+[submodule "trackers/CenterTrack"]
+	path = trackers/CenterTrack
+	url = https://github.com/xingyizhou/CenterTrack.git
+[submodule "trackers/TransCenter"]
+	path = trackers/TransCenter
+	url = https://gitlab.inria.fr/robotlearn/TransCenter_official

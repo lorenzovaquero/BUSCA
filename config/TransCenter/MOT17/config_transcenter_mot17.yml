@@ -1,0 +1,36 @@
+transformer:
+    num_layer: 4
+    nhead: 4
+    dim_embedding: 512
+    trans_dim: 512
+    ff_size: 1024
+    activation: gelu
+    dropout_p: 0.1
+    input_flavour: MEM-SEP-CAN-BAD
+    output_flavour: CAN
+    encode_separator_as_reference: true
+    encode_special_tokens: false
+    reid_weights_file: models/feature_extractor/market1501/model_feats.pth
+
+tracker:
+    transformer: null  # Will be populated by YAML-transformer
+    device: gpu
+    seed: 7
+
+    seq_len: 11
+    num_candidates: 5
+    use_broader_memory: true
+    select_highest_candidate: true
+    busca_thresh: 0.5
+    transformer_update_mems_only_first_round: true
+    reliable_thresh: [30, 0.08]
+    use_camera_motion_compensation: true
+
+    ignore_custom_byte_thresholds: true
+
+trainer:
+    transformer: null  # Will be populated by YAML-transformer
+    dataset: null  # Will be populated by YAML-dataset
+
+dataset:
+    neg_threshold: 0.5  # Used only for training
