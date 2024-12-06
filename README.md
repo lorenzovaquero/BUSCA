@@ -163,7 +163,11 @@ If you find BUSCA useful, please star the project and consider citing us as:
                   Manuel Mucientes},
   title        = {Lost and Found: Overcoming Detector Failures in Online Multi-Object Tracking},
   booktitle    = {European Conf. Comput. Vis. ({ECCV})},
-  pages        = {1--19},
-  year         = {2024}
+  series       = {Lecture Notes in Computer Science},
+  volume       = {15131},
+  pages        = {448--466},
+  publisher    = {Springer},
+  year         = {2024},
+  doi          = {10.1007/978-3-031-73464-9\_27}
 }
 ```
